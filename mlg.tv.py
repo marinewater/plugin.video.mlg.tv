@@ -88,30 +88,30 @@ def listStreams():
 
 
 def getQualityUrl(url):
-    if quality_setting == 'Auto':
+    if quality_setting == '0':
         return url
     else:
         m3u8 = M3u8(url)
-        if quality_setting == 'Best':
+        if quality_setting == '1':
             return m3u8.stream_urls[0][2]
 
-        elif quality_setting == '720p High':
+        elif quality_setting == '2':
             return next(stream for stream
                         in m3u8.stream_urls
                         if stream[1] == '720')[2]
 
-        elif quality_setting == '720p Low':
+        elif quality_setting == '3':
             streams = [stream for stream
                        in m3u8.stream_urls
                        if stream[1] == '720']
             return streams[-1][2]
 
-        elif quality_setting == '480p':
+        elif quality_setting == '4':
             return next(stream for stream
                         in m3u8.stream_urls
                         if stream[1] == '480')[2]
 
-        elif quality_setting == '360p':
+        elif quality_setting == '5':
             return next(stream for stream
                         in m3u8.stream_urls
                         if stream[1] == '360')[2]
