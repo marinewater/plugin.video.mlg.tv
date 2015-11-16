@@ -1,3 +1,6 @@
+v0.0.5
+- fixed default quality setting
+
 v0.0.4
 - fixed wrong addon id
 
