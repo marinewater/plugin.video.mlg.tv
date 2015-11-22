@@ -11,7 +11,7 @@
     <description lang="en">Watch Major League Gaming streams</description>
     <summary lang="de">mlg.tv Videoplugin</summary>
     <description lang="de">Schau Major League Gaming streams an</description>
-    <language>en</language>
+    <language>en de</language>
     <platform>all</platform>
     <license>MIT</license>
     <forum></forum>
