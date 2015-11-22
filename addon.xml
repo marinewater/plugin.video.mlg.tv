@@ -7,9 +7,10 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Watch mlg.tv streams</summary>
-    <description lang="en">Watch mlg.tv streams</description>
-    <disclaimer lang="en"></disclaimer>
+    <summary lang="en">mlg.tv video plugin</summary>
+    <description lang="en">Watch Major League Gaming streams</description>
+    <summary lang="de">mlg.tv Videoplugin</summary>
+    <description lang="de">Schau Major League Gaming streams an</description>
     <language>en</language>
     <platform>all</platform>
     <license>MIT</license>
